@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.title{
+  font-size: 25px;
+  width: 100vw;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.options{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options-btn{
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  width: 20vw;
+  cursor: pointer;
+}
+
+.options-btn:hover{
+  background-color: blue;
+  color: white;
+}
+
+.options-btn.active {
+  background-color: blue; 
+  color: white;
+}
+
+.download-link{
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: rgb(198, 193, 186);
+  padding: 10px;
+}
